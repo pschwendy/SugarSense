@@ -1,0 +1,24 @@
+{
+  "name": "sugarsense",
+  "version": "0.1.0",
+  "repository": "https://github.com/pschwendy/SugarSense.git",
+  "author": "pschwendy <peterschwende@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "yarn --cwd=server dev",
+    "test": ""
+  },
+  "dependencies": {
+    "@types/node": "^18.6.4",
+    "cross-fetch": "^3.1.5",
+    "express": "^4.18.1",
+    "node-fetch": "^3.3.0",
+    "pg": "^8.7.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.6.5"
+  }
+}
